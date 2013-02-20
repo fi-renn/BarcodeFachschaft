@@ -44,8 +44,8 @@ def createHashMap():
 	result["EAN-13:4102430013684\n"] = KioskItem("Bitburger Radler",1.0,116,485,True,True)
 	result["EAN-13:4102430015206\n"] = KioskItem("Bitburger Premium Pils",1.0,136,568,True,True)
 	result["EAN-13:4000555100909\n"] = KioskItem("Kandi Malz",0.70,142,597,True,True)
-	result["EAN-13:4060800160003\n"] = KioskItem("Rockstar Energy Drink",1.80,295,1255,False,True)
-	result["EAN-8:90162565\n"] = KioskItem("Redbull Mist",1.30,113,480,False,True)
+	result["EAN-13:4060800160003\n"] = KioskItem("Rockstar Energy Drink",1.80,295,1255,True,True)
+	result["EAN-8:90162565\n"] = KioskItem("Redbull Mist",1.30,113,480,True,True)
 	result["EAN-13:109422076266\n"] = KioskItem("Hermann Kola",0.80,139,591,True,True)
 	
 	return result

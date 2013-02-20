@@ -14,7 +14,7 @@ if __name__ =="__main__":
 	#createGui
 	window = Gui.createGui(map)
 	
-	p=os.popen('/usr/bin/zbarcam /dev/video0','r')
+	p=os.popen('/usr/bin/zbarcam /dev/video1','r')
 	while True:
 		code = p.readline()
 		print code
